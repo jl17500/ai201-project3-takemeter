@@ -1,0 +1,18 @@
+# Python / Colab
+   __pycache__/
+   *.pyc
+   .ipynb_checkpoints/
+   .env
+
+   # Model artifacts (too big to commit)
+   takemeter-model/
+   *.bin
+   *.safetensors
+   checkpoint-*/
+
+   # OS
+   .DS_Store
+   Thumbs.db
+
+   # VS Code
+   .vscode/
