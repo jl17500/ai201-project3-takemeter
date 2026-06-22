@@ -244,6 +244,7 @@ Loads fine-tuned model from `./model/`. Predictions below 0.40 confidence are fl
 - Spec assumed one training run. Took 3...
 
 ---
+## AI Usage
 
 1. **Pre Labeling**
 - Gave my definition + decision rules from `planning.md` to Claude, labeled batches of ~25 posts. Every label was reviewed manually before going into the dataset. About 15% were changed (mostly the `hot_take`/`due_diligence` ones as Claude consistently labeled any post with a financial stat as `due_diligence`).
